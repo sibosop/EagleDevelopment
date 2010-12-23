@@ -1,5 +1,5 @@
 [Eagle]
-Version="05 07 00"
+Version="05 10 00"
 Platform="Mac OS X"
 Serial="62191E841E-LSR-WLM-1EL"
 Globals="Globals"
@@ -7,15 +7,6 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
-UsedLibrary="/Users/brianreinbolt/SvnProjects/EagleDevelopment/trunk/libraries/Power-in.lbr"
-UsedLibrary="/Users/brianreinbolt/SvnProjects/EagleDevelopment/trunk/libraries/ap_rc_0402.lbr"
-UsedLibrary="/Users/brianreinbolt/SvnProjects/EagleDevelopment/trunk/libraries/bourns.lbr"
-UsedLibrary="/Users/brianreinbolt/SvnProjects/EagleDevelopment/trunk/libraries/con-cuistack.lbr"
-UsedLibrary="/Users/brianreinbolt/SvnProjects/EagleDevelopment/trunk/libraries/ep_molex_6410_7395-02.lbr"
-UsedLibrary="/Users/brianreinbolt/SvnProjects/EagleDevelopment/trunk/libraries/kmarx1.lbr"
-UsedLibrary="/Users/brianreinbolt/SvnProjects/EagleDevelopment/trunk/libraries/pic16f87x.lbr"
-UsedLibrary="/Users/brianreinbolt/SvnProjects/EagleDevelopment/trunk/libraries/powerconnectorskt.lbr"
-UsedLibrary="/Users/brianreinbolt/SvnProjects/EagleDevelopment/trunk/libraries/sibosop.lbr"
 UsedLibrary="/Applications/EAGLE-X11/lbr/19inch.lbr"
 UsedLibrary="/Applications/EAGLE-X11/lbr/40xx.lbr"
 UsedLibrary="/Applications/EAGLE-X11/lbr/41xx.lbr"
@@ -109,7 +100,6 @@ UsedLibrary="/Applications/EAGLE-X11/lbr/fox-electronics.lbr"
 UsedLibrary="/Applications/EAGLE-X11/lbr/frames.lbr"
 UsedLibrary="/Applications/EAGLE-X11/lbr/ftdichip.lbr"
 UsedLibrary="/Applications/EAGLE-X11/lbr/fuse.lbr"
-UsedLibrary="/Applications/EAGLE-X11/lbr/gm862.lbr"
 UsedLibrary="/Applications/EAGLE-X11/lbr/heatsink.lbr"
 UsedLibrary="/Applications/EAGLE-X11/lbr/holes.lbr"
 UsedLibrary="/Applications/EAGLE-X11/lbr/ic-package.lbr"
@@ -167,7 +157,6 @@ UsedLibrary="/Applications/EAGLE-X11/lbr/pld-intel.lbr"
 UsedLibrary="/Applications/EAGLE-X11/lbr/plxtech.lbr"
 UsedLibrary="/Applications/EAGLE-X11/lbr/pot-vitrohm.lbr"
 UsedLibrary="/Applications/EAGLE-X11/lbr/pot-xicor.lbr"
-UsedLibrary="/Applications/EAGLE-X11/lbr/pot.lbr"
 UsedLibrary="/Applications/EAGLE-X11/lbr/ptc-ntc.lbr"
 UsedLibrary="/Applications/EAGLE-X11/lbr/rcl.lbr"
 UsedLibrary="/Applications/EAGLE-X11/lbr/rectifier.lbr"
@@ -222,11 +211,10 @@ UsedLibrary="/Applications/EAGLE-X11/lbr/wirepad.lbr"
 UsedLibrary="/Applications/EAGLE-X11/lbr/wuerth-elektronik.lbr"
 UsedLibrary="/Applications/EAGLE-X11/lbr/zetex.lbr"
 UsedLibrary="/Applications/EAGLE-X11/lbr/zilog.lbr"
-UsedLibrary="/Users/brianreinbolt/SvnProjects/elock_gw/trunk/ElockEagleProjects/ElockLibrary/elock.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="400 315 999 714"
+Loc="815 381 1414 780"
 State=2
 Number=0
 
