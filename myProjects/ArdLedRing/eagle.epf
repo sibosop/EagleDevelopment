@@ -346,13 +346,257 @@ UsedLibrary="/Applications/EAGLE-7.4.0/lbr/xilinx-xc9.lbr"
 UsedLibrary="/Applications/EAGLE-7.4.0/lbr/xilinx-xcv.lbr"
 UsedLibrary="/Applications/EAGLE-7.4.0/lbr/zetex.lbr"
 UsedLibrary="/Applications/EAGLE-7.4.0/lbr/zilog.lbr"
+UsedLibrary="/Users/brian/GitProjects/EagleDevelopment/libraries/Power-in.lbr"
+UsedLibrary="/Users/brian/GitProjects/EagleDevelopment/libraries/ap_rc_0402.lbr"
+UsedLibrary="/Users/brian/GitProjects/EagleDevelopment/libraries/bourns.lbr"
+UsedLibrary="/Users/brian/GitProjects/EagleDevelopment/libraries/con-cuistack.lbr"
+UsedLibrary="/Users/brian/GitProjects/EagleDevelopment/libraries/ep_molex_6410_7395-02.lbr"
+UsedLibrary="/Users/brian/GitProjects/EagleDevelopment/libraries/ia442x.lbr"
+UsedLibrary="/Users/brian/GitProjects/EagleDevelopment/libraries/kmarx1.lbr"
+UsedLibrary="/Users/brian/GitProjects/EagleDevelopment/libraries/pic16f87x.lbr"
+UsedLibrary="/Users/brian/GitProjects/EagleDevelopment/libraries/powerconnectorskt.lbr"
+UsedLibrary="/Users/brian/GitProjects/EagleDevelopment/libraries/sibosop-con-molex.lbr"
+UsedLibrary="/Users/brian/GitProjects/EagleDevelopment/libraries/sibosop.lbr"
 
 [Win_1]
+Type="Library Editor"
+Loc="-1810 23 -238 1002"
+State=2
+Number=3
+File="/Users/brian/GitProjects/EagleDevelopment/libraries/sibosop.lbr"
+View="-25.5219 -31.4985 20.4419 14.8615"
+WireWidths=" 0 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.254 0.127"
+PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
+PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
+ViaDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
+ViaDrills=" 0.5 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.6"
+HoleDrills=" 0.5 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.6"
+TextSizes=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.4224 1.6764 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.778 1.27"
+PolygonSpacings=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.27"
+PolygonIsolates=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
+MiterRadiuss=" 0.254 0.3175 0.635 1.27 2.54 1 2 2.5 5 7.5 10 0"
+DimensionWidths=" 0 0.127 0.254 0.1 0.26 0.13"
+DimensionExtWidths=" 0.127 0.254 0.1 0.13 0.26 0"
+DimensionExtLengths=" 1.27 2.54 1 2 3 0"
+DimensionExtOffsets=" 1.27 2.54 1 2 3 0"
+SmdSizes=" 0.3048 0.1524 0.4064 0.2032 0.6096 0.3048 0.8128 0.4064 1.016 0.508 1.27 0.6604 1.4224 0.7112 1.6764 0.8128 1.778 0.9144 1.9304 0.9652 2.1844 1.0668 2.54 1.27 3.81 1.9304 5.08 2.54 6.4516 3.2512 1.27 0.635"
+WireBend=0
+WireBendSet=0
+WireCap=1
+MiterStyle=0
+PadShape=0
+ViaShape=0
+PolygonPour=0
+PolygonRank=0
+PolygonThermals=1
+PolygonOrphans=0
+TextRatio=8
+DimensionUnit=1
+DimensionPrecision=2
+DimensionShowUnit=0
+PinDirection=3
+PinFunction=0
+PinLength=2
+PinVisible=3
+SwapLevel=0
+ArcDirection=0
+AddLevel=2
+PadsSameType=0
+Layer=94
+Device="PRO-MINI"
+
+[Win_2]
+Type="Schematic Editor"
+Loc="-1698 23 -385 1053"
+State=2
+Number=1
+File="ArdLedRing.sch"
+View="-48.0556 1.2667 68.3756 115.573"
+WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1524"
+PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
+PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
+ViaDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
+ViaDrills=" 0.5 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.6"
+HoleDrills=" 0.5 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.6"
+TextSizes=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.778"
+PolygonSpacings=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.27"
+PolygonIsolates=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
+MiterRadiuss=" 0.254 0.3175 0.635 1.27 2.54 1 2 2.5 5 7.5 10 0"
+DimensionWidths=" 0 0.127 0.254 0.1 0.26 0.13"
+DimensionExtWidths=" 0.127 0.254 0.1 0.13 0.26 0"
+DimensionExtLengths=" 1.27 2.54 1 2 3 0"
+DimensionExtOffsets=" 1.27 2.54 1 2 3 0"
+SmdSizes=" 0.3048 0.1524 0.4064 0.2032 0.6096 0.3048 0.8128 0.4064 1.016 0.508 1.27 0.6604 1.4224 0.7112 1.6764 0.8128 1.778 0.9144 1.9304 0.9652 2.1844 1.0668 2.54 1.27 3.81 1.9304 5.08 2.54 6.4516 3.2512 1.27 0.635"
+WireBend=0
+WireBendSet=31
+WireCap=1
+MiterStyle=0
+PadShape=0
+ViaShape=0
+PolygonPour=0
+PolygonRank=0
+PolygonThermals=1
+PolygonOrphans=0
+TextRatio=8
+DimensionUnit=1
+DimensionPrecision=2
+DimensionShowUnit=0
+PinDirection=3
+PinFunction=0
+PinLength=2
+PinVisible=3
+SwapLevel=0
+ArcDirection=0
+AddLevel=2
+PadsSameType=0
+Layer=91
+Views=" 1: -48.0556 1.2667 68.3756 115.573"
+Sheet="1"
+
+[Win_3]
+Type="Board Editor"
+Loc="-1575 113 -341 948"
+State=2
+Number=2
+File="ArdLedRing.brd"
+View="-0.9586 -0.838 48.8886 42.738"
+WireWidths=" 0 0.254 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064"
+PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
+PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
+ViaDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
+ViaDrills=" 0.5 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.6"
+HoleDrills=" 0.5 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.6"
+TextSizes=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.778"
+PolygonSpacings=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.27"
+PolygonIsolates=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
+MiterRadiuss=" 0.254 0.3175 0.635 1.27 2.54 1 2 2.5 5 7.5 10 0"
+DimensionWidths=" 0 0.127 0.254 0.1 0.26 0.13"
+DimensionExtWidths=" 0.127 0.254 0.1 0.13 0.26 0"
+DimensionExtLengths=" 1.27 2.54 1 2 3 0"
+DimensionExtOffsets=" 1.27 2.54 1 2 3 0"
+SmdSizes=" 0.3048 0.1524 0.4064 0.2032 0.6096 0.3048 0.8128 0.4064 1.016 0.508 1.27 0.6604 1.4224 0.7112 1.6764 0.8128 1.778 0.9144 1.9304 0.9652 2.1844 1.0668 2.54 1.27 3.81 1.9304 5.08 2.54 6.4516 3.2512 1.27 0.635"
+WireBend=0
+WireBendSet=0
+WireCap=1
+MiterStyle=0
+PadShape=0
+ViaShape=0
+PolygonPour=0
+PolygonRank=1
+PolygonThermals=1
+PolygonOrphans=0
+TextRatio=8
+DimensionUnit=1
+DimensionPrecision=2
+DimensionShowUnit=0
+PinDirection=3
+PinFunction=0
+PinLength=2
+PinVisible=3
+SwapLevel=0
+ArcDirection=0
+AddLevel=2
+PadsSameType=0
+Layer=16
+
+[Win_4]
+Type="CAM Processor"
+Loc="-1485 245 -843 757"
+State=2
+Number=4
+File="ArdLedRing.brd"
+Job="/Users/brian/GitProjects/EagleDevelopment/camjobs/eagle.cam"
+
+[Win_5]
+Type="Text Editor"
+Loc="0 -22 499 477"
+State=2
+Number=5
+File="Gerber/ArdLedRing.cmp"
+CursorPos="0 0"
+Font="Courier,11,-1,5,50,0,0,0,0,0"
+
+[Win_6]
+Type="Text Editor"
+Loc="0 -22 499 477"
+State=2
+Number=6
+File="Gerber/ArdLedRing.dri"
+CursorPos="0 0"
+Font="Courier,11,-1,5,50,0,0,0,0,0"
+
+[Win_7]
+Type="Text Editor"
+Loc="0 -22 499 477"
+State=2
+Number=7
+File="Gerber/ArdLedRing.gpi"
+CursorPos="0 0"
+Font="Courier,11,-1,5,50,0,0,0,0,0"
+
+[Win_8]
+Type="Text Editor"
+Loc="0 -22 499 477"
+State=2
+Number=8
+File="Gerber/ArdLedRing.plc"
+CursorPos="0 0"
+Font="Courier,11,-1,5,50,0,0,0,0,0"
+
+[Win_9]
+Type="Text Editor"
+Loc="0 -22 499 477"
+State=2
+Number=9
+File="Gerber/ArdLedRing.pls"
+CursorPos="0 0"
+Font="Courier,11,-1,5,50,0,0,0,0,0"
+
+[Win_10]
+Type="Text Editor"
+Loc="0 -22 499 477"
+State=2
+Number=10
+File="Gerber/ArdLedRing.sol"
+CursorPos="0 0"
+Font="Courier,11,-1,5,50,0,0,0,0,0"
+
+[Win_11]
+Type="Text Editor"
+Loc="0 -22 499 477"
+State=2
+Number=11
+File="Gerber/ArdLedRing.stc"
+CursorPos="0 0"
+Font="Courier,11,-1,5,50,0,0,0,0,0"
+
+[Win_12]
+Type="Text Editor"
+Loc="0 -22 499 477"
+State=2
+Number=12
+File="Gerber/ArdLedRing.sts"
+CursorPos="0 0"
+Font="Courier,11,-1,5,50,0,0,0,0,0"
+
+[Win_13]
 Type="Control Panel"
-Loc="0 -22 599 377"
+Loc="-743 487 -144 886"
 State=2
 Number=0
 
 [Desktop]
 Screen="3840 1200"
 Window="Win_1"
+Window="Win_2"
+Window="Win_3"
+Window="Win_4"
+Window="Win_5"
+Window="Win_6"
+Window="Win_7"
+Window="Win_8"
+Window="Win_9"
+Window="Win_10"
+Window="Win_11"
+Window="Win_12"
+Window="Win_13"
