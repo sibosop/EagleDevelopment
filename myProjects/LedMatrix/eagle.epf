@@ -357,13 +357,7 @@ UsedLibrary="/Users/brian/GitProjects/EagleDevelopment/libraries/pic16f87x.lbr"
 UsedLibrary="/Users/brian/GitProjects/EagleDevelopment/libraries/powerconnectorskt.lbr"
 UsedLibrary="/Users/brian/GitProjects/EagleDevelopment/libraries/sibosop-con-molex.lbr"
 UsedLibrary="/Users/brian/GitProjects/EagleDevelopment/libraries/sibosop.lbr"
-
-[Win_1]
-Type="Control Panel"
-Loc="-1825 315 -1226 714"
-State=2
-Number=0
+UsedLibrary="/Users/brian/GitProjects/EagleDevelopment/libraries/led-matrix-v2.lbr"
 
 [Desktop]
 Screen="3840 1200"
-Window="Win_1"
