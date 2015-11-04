@@ -353,11 +353,11 @@ UsedLibrary="/Users/brian/GitProjects/EagleDevelopment/libraries/con-cuistack.lb
 UsedLibrary="/Users/brian/GitProjects/EagleDevelopment/libraries/ep_molex_6410_7395-02.lbr"
 UsedLibrary="/Users/brian/GitProjects/EagleDevelopment/libraries/ia442x.lbr"
 UsedLibrary="/Users/brian/GitProjects/EagleDevelopment/libraries/kmarx1.lbr"
+UsedLibrary="/Users/brian/GitProjects/EagleDevelopment/libraries/led-matrix-v2.lbr"
 UsedLibrary="/Users/brian/GitProjects/EagleDevelopment/libraries/pic16f87x.lbr"
 UsedLibrary="/Users/brian/GitProjects/EagleDevelopment/libraries/powerconnectorskt.lbr"
 UsedLibrary="/Users/brian/GitProjects/EagleDevelopment/libraries/sibosop-con-molex.lbr"
 UsedLibrary="/Users/brian/GitProjects/EagleDevelopment/libraries/sibosop.lbr"
-UsedLibrary="/Users/brian/GitProjects/EagleDevelopment/libraries/led-matrix-v2.lbr"
 
 [Desktop]
 Screen="3840 1200"
