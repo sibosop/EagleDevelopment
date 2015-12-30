@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -1037,12 +1037,12 @@ Copal</description>
 </package>
 <package name="DIL24-6-EXT">
 <description>DIL 24-6 with extension for online connector</description>
-<wire x1="-13.843" y1="-1.27" x2="-13.843" y2="-6.604" width="0.1524" layer="21"/>
-<wire x1="-13.843" y1="1.27" x2="-13.843" y2="-1.27" width="0.1524" layer="21" curve="-180"/>
-<wire x1="18.923" y1="-6.604" x2="18.923" y2="6.604" width="0.1524" layer="21"/>
-<wire x1="-13.843" y1="6.604" x2="-13.843" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-13.843" y1="6.604" x2="18.923" y2="6.604" width="0.1524" layer="21"/>
-<wire x1="-13.843" y1="-6.604" x2="18.923" y2="-6.604" width="0.1524" layer="21"/>
+<wire x1="-16.383" y1="-1.27" x2="-16.383" y2="-6.604" width="0.1524" layer="21"/>
+<wire x1="-16.383" y1="1.27" x2="-16.383" y2="-1.27" width="0.1524" layer="21" curve="-180"/>
+<wire x1="16.383" y1="-6.604" x2="16.383" y2="6.604" width="0.1524" layer="21"/>
+<wire x1="-16.383" y1="6.604" x2="-16.383" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-16.383" y1="6.604" x2="16.383" y2="6.604" width="0.1524" layer="21"/>
+<wire x1="-16.383" y1="-6.604" x2="16.383" y2="-6.604" width="0.1524" layer="21"/>
 <pad name="1" x="-12.7" y="-7.62" drill="1.1" shape="long" rot="R90"/>
 <pad name="2" x="-10.16" y="-7.62" drill="1.1" shape="long" rot="R90"/>
 <pad name="3" x="-7.62" y="-7.62" drill="1.1" shape="long" rot="R90"/>
@@ -1067,7 +1067,7 @@ Copal</description>
 <pad name="22" x="-7.62" y="7.62" drill="1.1" shape="long" rot="R90"/>
 <pad name="23" x="-10.16" y="7.62" drill="1.1" shape="long" rot="R90"/>
 <pad name="24" x="-12.7" y="7.62" drill="1.1" shape="long" rot="R90"/>
-<text x="-14.351" y="-6.35" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-16.891" y="-6.35" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 </package>
 <package name="SPARKRTC">
 <wire x1="-2.54" y1="10.16" x2="2.54" y2="10.16" width="0.127" layer="21"/>
@@ -2141,22 +2141,6 @@ Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
 <rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
 </package>
-<package name="C1005">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
-<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
 <package name="C1206">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
@@ -3224,22 +3208,6 @@ Metric Code Size 4564</description>
 <rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
 <rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
-</package>
-<package name="R1005">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
-<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
 <package name="R1206">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
@@ -4570,6 +4538,28 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <rectangle x1="-1.4" y1="-1.6" x2="-1.1" y2="1.6" layer="51"/>
 <rectangle x1="1.1" y1="-1.6" x2="1.4" y2="1.6" layer="51" rot="R180"/>
 </package>
+<package name="C01005">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<smd name="1" x="-0.1625" y="0" dx="0.2" dy="0.25" layer="1"/>
+<smd name="2" x="0.1625" y="0" dx="0.2" dy="0.25" layer="1"/>
+<text x="-0.4" y="0.3" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.4" y="-1.6" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2" y1="-0.1" x2="-0.075" y2="0.1" layer="51"/>
+<rectangle x1="0.075" y1="-0.1" x2="0.2" y2="0.1" layer="51"/>
+<rectangle x1="-0.15" y1="0.05" x2="0.15" y2="0.1" layer="51"/>
+<rectangle x1="-0.15" y1="-0.1" x2="0.15" y2="-0.05" layer="51"/>
+</package>
+<package name="R01005">
+<smd name="1" x="-0.1625" y="0" dx="0.2" dy="0.25" layer="1"/>
+<smd name="2" x="0.1625" y="0" dx="0.2" dy="0.25" layer="1"/>
+<text x="-0.4" y="0.3" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.4" y="-1.6" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2" y1="-0.1" x2="-0.075" y2="0.1" layer="51"/>
+<rectangle x1="0.075" y1="-0.1" x2="0.2" y2="0.1" layer="51"/>
+<rectangle x1="-0.15" y1="0.05" x2="0.15" y2="0.1" layer="51"/>
+<rectangle x1="-0.15" y1="-0.1" x2="0.15" y2="-0.05" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="R-US">
@@ -4633,15 +4623,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </technologies>
 </device>
 <device name="C0805" package="C0805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="C1005" package="C1005">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5307,6 +5288,15 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="01005" package="C01005">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="R-US_" prefix="R" uservalue="yes">
@@ -5343,15 +5333,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </technologies>
 </device>
 <device name="R0805W" package="R0805W">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="R1005" package="R1005">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -6080,6 +6061,15 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="01005" package="R01005">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -6490,14 +6480,14 @@ Based on the following sources:
 <part name="R3" library="rcl" deviceset="R-US_" device="0204/2V" value="1K"/>
 <part name="R6" library="rcl" deviceset="R-US_" device="0204/2V" value="1K"/>
 <part name="R7" library="rcl" deviceset="R-US_" device="0204/2V" value="1K"/>
-<part name="X1" library="sibosop-con-molex" deviceset="22-23-2021" device="" value=""/>
+<part name="X1" library="sibosop-con-molex" deviceset="22-23-2021" device="" value="HIV"/>
 <part name="VSS12" library="supply1" deviceset="VSS" device=""/>
 <part name="R8" library="rcl" deviceset="R-US_" device="0204/2V" value="33K"/>
 <part name="R10" library="rcl" deviceset="R-US_" device="0204/2V" value="33K"/>
 <part name="R11" library="rcl" deviceset="R-US_" device="0204/2V" value="33K"/>
 <part name="R12" library="rcl" deviceset="R-US_" device="0204/2V" value="33K"/>
 <part name="X2" library="sibosop-con-molex" deviceset="22-23-2021" device="" value="12V"/>
-<part name="P1" library="sibosop" deviceset="TRIMPOT" device="" value=""/>
+<part name="P1" library="sibosop" deviceset="TRIMPOT" device="" value="s adj"/>
 <part name="X5" library="sibosop-con-molex" deviceset="22-23-2021" device="" value="Seconds"/>
 <part name="VSS8" library="supply1" deviceset="VSS" device=""/>
 <part name="IC2" library="sibosop" deviceset="PRO-MINI" device=""/>
@@ -6508,8 +6498,8 @@ Based on the following sources:
 <part name="VCC1" library="supply1" deviceset="VDD" device="" value="VCC"/>
 <part name="VCC2" library="supply1" deviceset="VDD" device="" value="VCC"/>
 <part name="VCC3" library="supply1" deviceset="VDD" device="" value="VCC"/>
-<part name="X3" library="sibosop-con-molex" deviceset="22-23-2021" device="" value="Hour Connector"/>
-<part name="X4" library="sibosop-con-molex" deviceset="22-23-2021" device="" value="Minute Connector"/>
+<part name="X3" library="sibosop-con-molex" deviceset="22-23-2021" device="" value="Hr"/>
+<part name="X4" library="sibosop-con-molex" deviceset="22-23-2021" device="" value="Min"/>
 <part name="VSS4" library="supply1" deviceset="VSS" device=""/>
 <part name="VSS6" library="supply1" deviceset="VSS" device=""/>
 <part name="VCC4" library="supply1" deviceset="VDD" device="" value="VCC"/>
@@ -6518,13 +6508,13 @@ Based on the following sources:
 <sheet>
 <plain>
 <text x="-184.15" y="36.83" size="1.778" layer="91">Seconds Gauge</text>
-<text x="16.51" y="10.16" size="1.778" layer="91">140 V</text>
+<text x="16.51" y="10.16" size="1.778" layer="91">HIV</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="-20.32" y="99.06"/>
 <instance part="U$2" gate="G$1" x="-25.4" y="99.06"/>
-<instance part="VSS15" gate="G$1" x="-53.34" y="95.25" smashed="yes">
-<attribute name="VALUE" x="-55.88" y="91.44" size="1.778" layer="96"/>
+<instance part="VSS15" gate="G$1" x="-114.3" y="3.81" smashed="yes">
+<attribute name="VALUE" x="-109.22" y="0" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U$5" gate="G$1" x="-30.48" y="99.06"/>
 <instance part="U$7" gate="G$1" x="-15.24" y="99.06"/>
@@ -6592,7 +6582,7 @@ Based on the following sources:
 <attribute name="NAME" x="-127.762" y="10.16" size="1.524" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-124.333" y="10.922" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="X2" gate="-2" x="-53.34" y="101.6" rot="R90"/>
+<instance part="X2" gate="-2" x="-114.3" y="10.16" rot="R90"/>
 <instance part="P1" gate="G$1" x="-163.83" y="35.56" rot="R90"/>
 <instance part="X5" gate="-1" x="-175.26" y="35.56" rot="R180"/>
 <instance part="X5" gate="-2" x="-176.53" y="30.48" rot="R180"/>
@@ -6649,7 +6639,7 @@ Based on the following sources:
 <pinref part="VSS11" gate="G$1" pin="VSS"/>
 </segment>
 <segment>
-<wire x1="-53.34" y1="99.06" x2="-53.34" y2="97.79" width="0.1524" layer="91"/>
+<wire x1="-114.3" y1="7.62" x2="-114.3" y2="6.35" width="0.1524" layer="91"/>
 <pinref part="VSS15" gate="G$1" pin="VSS"/>
 <pinref part="X2" gate="-2" pin="S"/>
 </segment>
